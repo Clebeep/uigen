@@ -1,0 +1,21 @@
+   ▲ Next.js 15.3.9 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://172.20.10.13:3000
+
+ ✓ Starting...
+ ⚠ Invalid next.config.ts options detected: 
+ ⚠     Unrecognized key(s) in object: 'root' at "turbopack"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Compiled middleware in 321ms
+ ✓ Ready in 2.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 19.3s
+ GET / 200 in 20284ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 650ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 1147ms
+ GET / 200 in 177ms
+ ○ Compiling /api/chat ...
+ ✓ Compiled /api/chat in 1070ms
+ANTHROPIC_API_KEY is not set (or is still the placeholder). Using the mock provider — responses will be canned. Set a real key in .env to generate components with Claude.
+ POST /api/chat 200 in 15129ms

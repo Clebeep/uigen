@@ -1,0 +1,113 @@
+[     495ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[     668ms] [LOG] [Fast Refresh] done in 275ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14891
+[    1135ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:16383
+[   13258ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[   13262ms] [LOG] [Fast Refresh] done in 107ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14891
+[   13471ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[   13704ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[   14006ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[   16652ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[   16756ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[   17107ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[   17208ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[   18939ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[   19010ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[   19125ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[   20890ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[   20957ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/api/chat:0
+[   20959ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[   21027ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[   42448ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[   42856ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[   83775ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[   84499ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225

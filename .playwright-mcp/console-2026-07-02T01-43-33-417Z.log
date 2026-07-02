@@ -1,0 +1,142 @@
+[      95ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[     200ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[     270ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[     327ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[     397ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[     457ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[     527ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[     598ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[     838ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:14111
+[     883ms] Error: ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant
+
+
+    at <unknown> (Error: ./src/lib/provider.ts:427:16)
+    at Object.getCompilationErrors (file://E:\claude学习\uigen\uigen\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:725:59)
+    at DevBundlerService.getCompilationError (file://E:\claude学习\uigen\uigen\node_modules\next\dist\server\lib\dev-bundler-service.js:39:55)
+    at DevServer.getCompilationError (file://E:\claude学习\uigen\uigen\node_modules\next\dist\server\dev\next-dev-server.js:643:42)
+    at DevServer.findPageComponents (file://E:\claude学习\uigen\uigen\node_modules\next\dist\server\dev\next-dev-server.js:613:43)
+    at async DevServer.renderErrorToResponseImpl (file://E:\claude学习\uigen\uigen\node_modules\next\dist\server\base-server.js:2619:26)
+[     894ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11471
+[     907ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[    1189ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[    1308ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/favicon.ico:0
+[    1352ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[   20499ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[   20923ms] [ERROR] ./src/lib/provider.ts:427:16
+Parsing ecmascript source code failed
+  425 |         return "    console.log('Form submitted:', formData);";
+  426 |       case "card":
+> 427 |         return '      <span className={`text-lg ml-1 ${
+      |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  428 |         highlighted ? \'text-purple-200\' : \'text-zinc-500\'
+  429 |       }`}>{period}</span>';
+  430 |       default:
+
+Unterminated string constant @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[   41913ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11514
+[   47105ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11471
+[   68062ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:16383
+[   69754ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[   69820ms] [LOG] [Fast Refresh] done in 168ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14891
+[  100300ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15027
+[  100471ms] [LOG] [Fast Refresh] done in 284ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14891

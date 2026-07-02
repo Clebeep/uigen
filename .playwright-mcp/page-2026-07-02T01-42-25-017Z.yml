@@ -1,0 +1,103 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e3]:
+    - generic [ref=f5e5]:
+      - heading "React Component Generator" [level=1] [ref=f5e7]
+      - generic [ref=f5e9]:
+        - generic [ref=f5e52]:
+          - generic [ref=f5e55]: Create a pricing card component with a title, price, list of features, and a call-to-action button
+          - img [ref=f5e58]
+        - generic [ref=f5e23]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=f5e24]
+          - button [disabled] [ref=f5e25]:
+            - img [ref=f5e26]
+    - separator [ref=f5e29]
+    - generic [ref=f5e31]:
+      - generic [ref=f5e32]:
+        - tablist [ref=f5e34]:
+          - tab "Preview" [selected] [ref=f5e35]
+          - tab "Code" [ref=f5e36]
+        - generic [ref=f5e37]:
+          - button "Sign In" [ref=f5e38]
+          - button "Sign Up" [ref=f5e39]
+      - generic [ref=f5e44]:
+        - img [ref=f5e46]
+        - heading "Welcome to UI Generator" [level=3] [ref=f5e48]
+        - paragraph [ref=f5e49]: Start building React components with AI assistance
+        - paragraph [ref=f5e50]: Ask the AI to create your first component to see it live here
+  - alert [ref=f5e51]
+  - generic [active]:
+    - button "Open issues overlay" [ref=f5e67] [cursor=pointer]:
+      - img [ref=f5e69]
+      - generic [ref=f5e71]:
+        - generic [ref=f5e72]: "0"
+        - generic [ref=f5e73]: "1"
+      - generic [ref=f5e74]: Issue
+    - generic [ref=f5e77]:
+      - generic [ref=f5e78]:
+        - generic [ref=f5e79]:
+          - navigation [ref=f5e80]:
+            - button "previous" [disabled] [ref=f5e81]:
+              - img "previous" [ref=f5e82]
+            - generic [ref=f5e84]:
+              - generic [ref=f5e85]: 1/
+              - text: "1"
+            - button "next" [disabled] [ref=f5e86]:
+              - img "next" [ref=f5e87]
+          - img
+        - generic [ref=f5e89]:
+          - link "Next.js 15.3.9 (outdated) Turbopack" [ref=f5e90] [cursor=pointer]:
+            - /url: https://nextjs.org/docs/messages/version-staleness
+            - img [ref=f5e91]
+            - generic "An outdated version detected (latest is 16.2.9), upgrade is highly recommended!" [ref=f5e93]: Next.js 15.3.9 (outdated)
+            - generic [ref=f5e94]: Turbopack
+          - img
+      - generic [ref=f5e95]:
+        - dialog "Build Error" [ref=f5e96]:
+          - generic [ref=f5e98]:
+            - generic [ref=f5e99]:
+              - generic [ref=f5e100]:
+                - generic [ref=f5e101]:
+                  - generic [ref=f5e103]: Build Error
+                  - generic [ref=f5e104]:
+                    - button "Copy Stack Trace" [ref=f5e105] [cursor=pointer]:
+                      - img [ref=f5e106]
+                    - button "No related documentation found" [disabled] [ref=f5e108]:
+                      - img [ref=f5e109]
+                    - link "Learn more about enabling Node.js inspector for server code with Chrome DevTools" [ref=f5e111] [cursor=pointer]:
+                      - /url: https://nextjs.org/docs/app/building-your-application/configuring/debugging#server-side-code
+                      - img [ref=f5e112]
+                - paragraph [ref=f5e121]: Parsing ecmascript source code failed
+              - generic [ref=f5e123]:
+                - generic [ref=f5e125]:
+                  - img [ref=f5e127]
+                  - generic [ref=f5e131]: ./src/lib/provider.ts (427:16)
+                  - button "Open in editor" [ref=f5e132] [cursor=pointer]:
+                    - img [ref=f5e134]
+                - generic [ref=f5e136]:
+                  - generic [ref=f5e137]: Parsing ecmascript source code failed
+                  - generic [ref=f5e138]: 425 |
+                  - text: return
+                  - generic [ref=f5e139]: "\" console.log('Form submitted:', formData);\""
+                  - text: ;
+                  - generic [ref=f5e140]: 426 |
+                  - text: "case \"card\": >"
+                  - generic [ref=f5e141]: 427 |
+                  - text: return
+                  - generic [ref=f5e142]: "' <span className={`text-lg ml-1 ${"
+                  - generic [ref=f5e143]: "|"
+                  - text: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  - generic [ref=f5e144]: 428 |
+                  - generic [ref=f5e145]: highlighted
+                  - text: "? \\"
+                  - generic [ref=f5e146]: "'text-purple-200\\' : \\'text-zinc-500\\'"
+                  - generic [ref=f5e147]: 429 |
+                  - generic [ref=f5e148]: "}"
+                  - text: "`}>{period}</span>';"
+                  - generic [ref=f5e149]: 430 |
+                  - generic [ref=f5e150]: "default:"
+                  - generic [ref=f5e151]: Unterminated string constant
+            - generic [ref=f5e152]:
+              - generic [ref=f5e153]: "1"
+              - generic [ref=f5e154]: "2"
+        - contentinfo [ref=f5e155]:
+          - paragraph [ref=f5e156]: This error occurred during the build process and can only be dismissed by fixing the error.
