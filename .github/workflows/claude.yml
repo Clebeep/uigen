@@ -28,14 +28,39 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Project Setup
+        run: |
+          npm run setup
+          npm run dev:daemon
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
       - name: Run Claude with DeepSeek
-        env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ANTHROPIC_BASE_URL: https://api.deepseek.com/anthropic
         run: node .github/scripts/claude-respond.js
+        env:
+          DEEPSEEK_API_KEY: "${{ secrets.DEEPSEEK_API_KEY }}"
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          ANTHROPIC_BASE_URL: "https://api.deepseek.com/anthropic"
+          ALLOWED_TOOLS: "Bash(npm:*),Bash(sqlite3:*),mcp__playwright__browser_snapshot,mcp__playwright__browser_click,..."
+          MCP_CONFIG: |
+            {
+              "mcpServers": {
+                "playwright": {
+                  "command": "npx",
+                  "args": [
+                    "@playwright/mcp@latest",
+                    "--allowed-origins",
+                    "localhost:3000;cdn.tailwindcss.com;esm.sh"
+                  ]
+                }
+              }
+            }
+          CUSTOM_INSTRUCTIONS: |
+            The project is already set up with all dependencies installed.
+            The server is already running at localhost:3000. Logs from it
+            are being written to logs.txt. If needed, you can query the
+            db with the 'sqlite3' cli. If needed, use the mcp__playwright
+            set of tools to launch a browser and interact with the app.
