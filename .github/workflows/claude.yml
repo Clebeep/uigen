@@ -6,14 +6,13 @@ on:
   issue_comment:
     types: [created]
   pull_request:
-    types: [opened]
-  pull_request_review_comment:
-    types: [created]
+    types: [opened, synchronize]
 
 permissions:
-  issues: write
+  contents: write
   pull-requests: write
-  contents: read
+  issues: write
+  id-token: write
 
 jobs:
   claude:
@@ -21,21 +20,16 @@ jobs:
     if: |
       (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude')) ||
       (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude')) ||
-      github.event_name == 'issues' ||
-      github.event_name == 'pull_request'
+      (github.event_name == 'issues' && contains(github.event.issue.body, '@claude')) ||
+      (github.event_name == 'pull_request' && contains(github.event.pull_request.body, '@claude'))
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Run Claude with DeepSeek
+      - name: Run Claude Code
+        uses: anthropics/claude-code-action@v1
         env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANTHROPIC_BASE_URL: https://api.deepseek.com/anthropic
-        run: node .github/scripts/claude-respond.js
+          ANTHROPIC_MODEL: deepseek-v4-pro[1m]
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
